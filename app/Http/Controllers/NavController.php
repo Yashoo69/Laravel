@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Book; 
+
 
 class NavController extends Controller
 {
@@ -17,6 +19,7 @@ class NavController extends Controller
 
     public function books()
     {
-        return view('books');
+        $books = Book::get();
+        return view('books' , ['books'=> $books]);
     }
 }

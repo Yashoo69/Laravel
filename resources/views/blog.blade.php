@@ -214,4 +214,4 @@
     Accueil
 @endsection --}}
 
-@section('title', 'Accueil')
+@section('title', 'Blog')
