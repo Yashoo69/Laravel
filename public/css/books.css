@@ -5,10 +5,23 @@
 }
 
 th, td {
-    border: 1px solid black;
+    border: 3px solid black;
     padding: 10px;
+    text-align: center;
 }
 
+h1 {
+    color: #49361b;
+    text-shadow: 3px 3px 3px white;
+}
+
+body {
+    height: 100%;
+    background-image: url(https://st.depositphotos.com/1035837/1363/i/950/depositphotos_13631485-stock-photo-book.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 main {
     height: 90vh;
 }

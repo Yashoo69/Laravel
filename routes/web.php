@@ -25,3 +25,7 @@ Route::get('/blog', [NavController::class, 'blog']);
 
 Route::get('/books', [NavController::class, 'books']);
 
+Route::get('/addBook', [NavController::class, 'addBook']);
+
+Route::get('/infoBook', [NavController::class, 'infoBook']);
+
