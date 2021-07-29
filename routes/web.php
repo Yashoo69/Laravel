@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\NavController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -17,6 +19,9 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 
-Route::get('/', function () {
-    return view('welcome', ['name' => 'Thomas']);
-});
+Route::get('/', [NavController::class, 'welcome']);
+
+Route::get('/blog', [NavController::class, 'blog']);
+
+Route::get('/books', [NavController::class, 'books']);
+
