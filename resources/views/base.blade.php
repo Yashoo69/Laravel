@@ -57,7 +57,7 @@
         <li><a class="dropdown-item active" href="/" aria-current="page">HOME</a></li>
         <li><a class="dropdown-item" href="/books">LIVRES</a></li>
         <li><a class="dropdown-item" href="/blog">BLOG</a></li>
-        <li><a class="dropdown-item" href="/addBook">AJOUTER LIVRE</a></li>
+        <li><a class="dropdown-item" href="/formbook">AJOUTER LIVRE</a></li>
         <li><hr class="dropdown-divider"></li>
         <li><a class="dropdown-item" href="/infoBook">INFORMATION</a></li>
         <li><a class="dropdown-item" href="#">Analytics</a></li>

@@ -19,7 +19,7 @@ class NavController extends Controller
 
     public function books()
     {
-        $books = Book::get();
+        $books = Book::all();
         return view('books' , ['books'=> $books]);
     }
 

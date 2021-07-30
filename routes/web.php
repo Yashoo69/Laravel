@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\NavController;
-
+use App\Http\Controllers\ActionController;
 
 /*
 |--------------------------------------------------------------------------
@@ -25,7 +25,9 @@ Route::get('/blog', [NavController::class, 'blog']);
 
 Route::get('/books', [NavController::class, 'books']);
 
-Route::get('/addBook', [NavController::class, 'addBook']);
+Route::get('/formbook', [NavController::class, 'addBook']);
+
+Route::get('/addBook', [ActionController::class, 'addBook']);
 
 Route::get('/infoBook', [NavController::class, 'infoBook']);
 

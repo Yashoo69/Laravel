@@ -21,7 +21,7 @@
 <br>
 <table>
 <tr>
-    <th>titre</th>
+    <th>Titre</th>
     <th>Auteur</th>
     <th>Genre</th>
     <th>Année de publication</th>
